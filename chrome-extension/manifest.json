@@ -1,0 +1,14 @@
+{
+ "manifest_version": 2,
+ "name": "Thought Machine",
+ "description": "All the inspiring thoughts at a place.",
+ "version": "1",
+ "author": "Priyanshu Nayan",
+"browser_action": {
+   "default_title": "Get Motivated"
+ },
+"chrome_url_overrides" : {
+  "newtab": "index.html"
+},
+ "permissions": ["activeTab"]
+}
