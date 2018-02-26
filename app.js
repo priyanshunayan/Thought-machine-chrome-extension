@@ -96,12 +96,14 @@ var powerThoughts = [
 "Stay Hungry, Stay Foolish. ~Steve Jobs",
 "Do or Die. ~Mahatama Gandhi",
 "Be the change you want to see in the world. ~Mahatama Gandhi"
+
 ]
 
 var content = document.getElementById('content');
 (function() {
-	content.innerHTML= powerThoughts[Math.floor((Math.random() * 94) + 1)];
-	var totalCount = 41;
+	content.innerHTML= powerThoughts[Math.floor((Math.random() * 96) + 1)];
+	var totalCount = 52;
     var num = Math.floor((Math.random() * totalCount) + 1);
     document.body.background = 'background/back' + num + '.jpg';
 }());
+

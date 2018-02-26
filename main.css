@@ -46,94 +46,73 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* Type kit */ 
+html {font-size: 1em;}
+
+body {
+  background-color: white;
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 400;
+  line-height: 1.45;
+  color: #333;
+}
+
+p {margin-bottom: 1.3em;}
+
+h1, h2, h3, h4 {
+  margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+  line-height: 1.2;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 3.998em;
+}
+
+h2 {font-size: 2.827em;}
+
+h3 {font-size: 1.999em;}
+
+h4 {font-size: 1.414em;}
+
+small, .font_small {font-size: 0.707em;}
+
 
 
 /* Page styling */
-html{
-	font-size: 16px;
-}
-.blue {
-	color: #3b5bdb;
-}
-html {
-  background-size: cover;
+body {
+	 background-size: cover;
   background-position: center;
   background-attachment: fixed;
    background-repeat:no-repeat;
-  color: white;
-}
-
-header h1 {
-	font-size: 3rem;
-	text-align: center;
-	font-variant: small-caps;
-	 font-family: 'Roboto', sans-serif;
-	 letter-spacing: 2px;
-	 font-weight: bold;
-	 margin-top: 0.9rem;
-}
-header h3 {
-	text-align: center;
-	font-family: 'Bree Serif', serif;
-	margin-top: 0.9rem;	
-	font-style: italic;
-}
-a {
-	color: white;
-	text-decoration: underline;
-}
-a:hover {
-	text-decoration: none;
 }
 #content {
-	font-size: 2rem;
 	width: 70%;
 	text-align: center;
 	overflow-y: hidden;
 	font-family: 'Lato', sans-serif;
-	 letter-spacing: 2px;
-	 margin:35vh auto 0 auto ;
-	 display: flex;
-	 align-self: center;
-	 line-height: 1.6;
+	 font-size: 2.827em;
+	 color: white;
 }
-.center {
-	text-align: center;
-	margin: 0 auto;
-	margin-top: 2rem;
+.outer {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
 }
-
-.btnStyle {
-	width: 70%;
-	margin: 0 auto;
-	text-align: center;
-	margin-top: 2rem;
+.inner {
+    display: table-cell;
+    vertical-align: middle;
 }
-button{
-	font-family: 'Roboto', sans-serif;
-	font-weight: bolder;
-	font-size: 1.2rem;
-	background-color: #ced4da;
-	padding:  0.4rem 2.9rem;
-	border-radius: 5px;
-	cursor: pointer;
-	border: none;
+.content {
+    margin-left: auto;
+    margin-right: auto; 
 }
-button:hover {
-
-	color: white;
-	background-color: #212529;
-}
-
-.blue {
-	color: #3b5bdb;
-}
-
 @media screen and (max-width: 800px) {
 	#content {
 		width: 85%;
-		height: 50vh;
-		margin-top: 2rem;
+		height: auto;
 
 	}
 
