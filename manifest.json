@@ -2,7 +2,7 @@
  "manifest_version": 2,
  "name": "Thought Machine",
  "description": "All the inspiring thoughts at a place.",
- "version": "1",
+ "version": "1.1",
  "author": "Priyanshu Nayan",
 "browser_action": {
    "default_title": "Get Motivated"

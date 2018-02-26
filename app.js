@@ -97,7 +97,7 @@ var powerThoughts = [
 "Do or Die. ~Mahatama Gandhi",
 "Be the change you want to see in the world. ~Mahatama Gandhi"
 
-]
+];
 
 var content = document.getElementById('content');
 (function() {
